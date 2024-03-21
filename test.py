@@ -9,7 +9,7 @@ def randomletters(length):
     letters = string.ascii_letters
     return ''.join(random.choice(letters) for i in range(length))
 
-TOKEN = ("")
+TOKEN = ("MTIxODU1NTEwNTA3NTM5NjYwOA.GaXREo.scknOSFTiaX6GXWTCxZ-du5WER9KC4i_8gLMhs")
 
 
 client=discord.Client(intents=discord.Intents.all())

@@ -47,7 +47,7 @@ async def on_message(message):
             except:
                 pass
         for role in message.guild.roles:  
-            try:  
+            try: 
                 await role.delete()
             except:
                 pass
